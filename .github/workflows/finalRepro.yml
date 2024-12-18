@@ -97,4 +97,4 @@ jobs:
         with:
           app-name: 'customerReproTest3'
           slot-name: 'Production'
-          package: .
+          package: ./hu/app.zip
