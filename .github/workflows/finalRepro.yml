@@ -8,6 +8,9 @@ permissions:
   id-token: write
   contents: read
 
+env:
+  SOME_VARIABLE: "ABCD"
+
 jobs:
   build_test_publish:
     name: Build, execute tests and publish
